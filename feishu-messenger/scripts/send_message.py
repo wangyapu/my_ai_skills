@@ -25,7 +25,7 @@
     # 覆盖默认接收者
     python3 send_message.py --receive-id-type open_id --receive-id ou_xxx --msg-type text --content '{"text": "你好！"}'
 """
-
+from __future__ import annotations
 import argparse
 import json
 import os
